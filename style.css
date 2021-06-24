@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg,white,green);
+    margin:0;
+
+}
+
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+.character{
+    margin:10px 10px 10px 0px;
+}
+
+.img-container{
+    display: flex;
+    height: 70%;
+    width:10%;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+    background-color: azure;
+}
